@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url('http://mbcworld.imbc.com/css/NanumBarunGothic.css');
+
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+html {overflow-y: scroll;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%; font-weight: normal;}
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; text-decoration: none; color: inherit;}
+img {max-width: 100%; border: none; vertical-align: middle;}
+#wb_wrap {width: 1100px; margin: 0 auto;}
+#wb_wrap .top_bx {width: 100%; height: 1306px; background: #fffdf1 url("http://img.imbc.com/notice/images_wb/top_bx_BG.jpg") 0 0 no-repeat; background-size: 100%; background-position: top center; position: relative;}
+#wb_wrap .top_bx .top_txt {width: 766px; position: absolute; top: 90px; left: 50%; margin-left: -383px; text-align: center;}
+#wb_wrap .top_bx .top_txt p {font-size: 0 !important; width: 410px; height: 48px; background: url("http://img.imbc.com/notice/images_wb/top_txt_p.png") 0 0 no-repeat; margin: 0 auto;}
+#wb_wrap .top_bx .top_txt h1 {font-size: 0 !important; width: 765px; height: 185px; background: url("http://img.imbc.com/notice/images_wb/top_txt_h1.png") 0 0 no-repeat; margin-top: 40px;}
+#wb_wrap .top_bx .ctt_txt {width: 680px; height: 540px; background: #fff; position: absolute; top: 720px; left: 50%; margin-left: -340px; text-align: center; font-family: 'NanumBarunGothic', Arial, "Helvetica Neue", Helvetica, sans-serif;}
+#wb_wrap .top_bx .ctt_txt p.ct_01 {font-size: 16px !important; line-height: 28px; letter-spacing: -1px; color: #1c183a; margin-top: 60px; font-family: 'NanumBarunGothic', Arial, "Helvetica Neue", Helvetica, sans-serif;}
+#wb_wrap .top_bx .ctt_txt p.ct_01 span.m_lg {font-size: 0 !important; display: inline-block; width: 46px; height: 16px; background: url("http://img.imbc.com/notice/images_wb/MBC-logo.png") 2px 2px no-repeat; vertical-align: middle; margin-bottom: 3px;}
+#wb_wrap .top_bx .ctt_txt p.ct_01 strong {font-size: 16px;font-family: 'NanumBarunGothic', Arial, "Helvetica Neue", Helvetica, sans-serif; color: #1c183a; line-height: 28px;}
+#wb_wrap .top_bx .ctt_txt p.ct_01 strong span {font-size: 16px !important; color: #e75657;font-family: 'NanumBarunGothic', Arial, "Helvetica Neue", Helvetica, sans-serif; line-height: 28px;}
+#wb_wrap .top_bx .ctt_txt p.ct_02 {font-size: 0 !important; width: 225px; height: 75px; background: url("http://img.imbc.com/notice/images_wb/ct_02.png") 0 0 no-repeat; margin: 0 auto; margin-top: 20px;}
+#wb_wrap .content {width: 100%; background: #fce6ef; padding: 75px 0;}
+#wb_wrap .content .ct_bx {width: 790px; margin: 0 auto; margin-top: 40px;}
+#wb_wrap .content .ct_bx:first-child {margin-top: 0;}
+#wb_wrap .content .ct_bx .ct_title {overflow: hidden;}
+#wb_wrap .content .ct_bx .ct_title .ct_ttl {width: 248px; height: 35px; background: url("http://img.imbc.com/notice/images_wb/ct_ttl_01.jpg") 0 0 no-repeat;}
+#wb_wrap .content .ct_bx .ct_title .ct_ttl p {display: inline; font-size: 0 !important;}
+#wb_wrap .content .ct_bx .ct_title .ct_ttl p>span {font-size: 0 !important;}
+#wb_wrap .content .ct_bx .ct_title .ct_ttl, #wb_wrap .content .ct_title .ct_ttl p {float: left;}
+#wb_wrap .content .ct_bx .ct_title p.act {font-size: 14px !important; display: inline-block; margin-top: 10px; margin-left: 10px; font-weight: bold !important;
+font-family: 'NanumBarunGothic', Arial, "Helvetica Neue", Helvetica, sans-serif; color: #000;}
+#wb_wrap .content .ct_bx .ct_title p.act span {color: #ef5b5c; font-size: 14px !important; font-weight: bold !important;
+font-family: 'NanumBarunGothic', Arial, "Helvetica Neue", Helvetica, sans-serif;}
+#wb_wrap .content .ct_bx .ct_player {overflow: hidden; margin-top: 15px;}
+#wb_wrap .content .ct_bx .ct_player>div {display: inline-block; float: left;}
+#wb_wrap .content .ct_bx .ct_player .ct_video {}
+#wb_wrap .content .ct_bx .ct_player .pl_txt {width: 220px; height: 315px; margin-left: 1px; background: #fff url("http://img.imbc.com/notice/images_wb/dot_y_line.png") 0 0 repeat-y; font-family: 'NanumBarunGothic', Arial, "Helvetica Neue", Helvetica, sans-serif; text-align: center;}
+#wb_wrap .content .ct_bx .ct_player .pl_txt .pl_bar {display: block; width: 32px; height: 3px; background: #4f66b0; margin: 38px auto 28px;}
+#wb_wrap .content .ct_bx .ct_player .pl_txt p {font-size: 14px !important; line-height: 22px; color: #1c183a; font-family: 'NanumBarunGothic', Arial, "Helvetica Neue", Helvetica, sans-serif;}
+
+#wb_wrap .content .cb_02 .ct_title .ct_ttl {width: 248px; height: 35px; background: url("http://img.imbc.com/notice/images_wb/ct_ttl_02.jpg") 0 0 no-repeat;}
+#wb_wrap .content .cb_02 .ct_player .pl_txt .pl_bar {background: #ef5b5c;}
